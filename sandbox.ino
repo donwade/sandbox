@@ -56,6 +56,8 @@ void setupLedFlash(int pin);
 
 void setup() {
   Serial.begin(115200);
+  delay(4000);
+
   Serial.setDebugOutput(true);
   Serial.println();
 
